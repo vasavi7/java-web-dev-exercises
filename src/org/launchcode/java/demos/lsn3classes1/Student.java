@@ -11,6 +11,11 @@ public class Student {
     private int numberOfCredits = 0;
     private double gpa = 0.0;
 
+    public Student() {
+
+    }
+
+
     public void setName(String name){
         this.name = name;
     }
